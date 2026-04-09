@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../.vs"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../mysite"
+		},
+		{
+			"path": "../boostOfficial"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Football"
+	}
+}

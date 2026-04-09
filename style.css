@@ -1,0 +1,145 @@
+/* Базові налаштування (обнулення) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Фон всього сайту (темний кібер-простір) */
+body {
+    background-color: #0f111a;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Головна картка сайту */
+.wrapper {
+    background-color: #1a1d29;
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Шапка */
+header {
+    border-bottom: 2px solid #ff6600; /* Твій помаранчевий акцент */
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo b {
+    color: #ff6600;
+}
+
+.contacts a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacts i {
+    color: #ff6600;
+    font-size: 12px;
+}
+
+/* Головна частина */
+.main-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* Зона картинки */
+.picture-area {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-img {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 12px;
+    border: 3px solid #ff6600;
+    box-shadow: 0 0 15px rgba(255, 102, 0, 0.3);
+}
+
+/* Текст */
+.main-text {
+    flex: 2;
+}
+
+.main-text h1 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.main-text p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #b0b3b8;
+    margin-bottom: 15px;
+}
+
+/* Сайдбар / Меню */
+.menu {
+    flex: 1;
+    background-color: #252936;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1a1d29;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+
+/* Ефект світіння кнопок */
+.menu a:hover {
+    background-color: transparent;
+    border-color: #ff6600;
+    color: #ff6600;
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
+}
+
+/* Підвал */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: #4a4d57;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 20px;
+}
